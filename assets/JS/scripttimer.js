@@ -14,7 +14,7 @@
       }, config);
   
       _this.current = {
-        d: "000",
+        d: "00",
         h: "00",
         m: "00",
         s: "00"
@@ -71,8 +71,8 @@
       }
   
       function pad3(number) {
-        if (number < 10) return "00" + number;
-        else if (number < 100) return "0" + number;
+        if (number < 10) return "0" + number;
+        else if (number < 100) return "" + number;
         else return "" + number;
       }
   

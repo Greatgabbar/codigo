@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+@font-face {
+  font-family: nine;
+  src: url("../Fonts/nine.otf");
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background-color: #fff;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb {
+  background: #f2385a;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+  -ms-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+::-moz-scrollbar {
+  width: 5px;
+}
+::-moz-scrollbar-track {
+  background-color: #fff;
+  border-radius: 2px;
+}
+::-moz-scrollbar-thumb {
+  background: #f2385a;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+  -ms-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html body {
+  margin: 0px;
+  padding: 0px;
+  user-select: none;
+}
+
+.navynavprat {
+  background-color: #0c0c10;
+}
+
+.navlink {
+  margin-right: 15px;
+  color: white;
+  border-radius: 15px;
+  transition: border 0.5s;
+  border-bottom: 2px solid transparent;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navlink:hover {
+  color: white;
+  border-bottom: 2px solid #f2385a;
+  box-shadow: 0px 10px -14px 14px #fff;
+  -webkit-box-shadow: 0px 10px -14px 14px #fff;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: white;
+}
+
+.custom-toggler.navbar-toggler:focus {
+  outline: none;
+}
+
+.backback {
+  background-color: black;
+  font-size: 450px;
+}
+
+.mybut {
+  border: 2px solid #f2385a;
+  background-color: #f2385a;
+  color: white;
+  font-family: nine;
+  letter-spacing: 1px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 40px;
+  transition: background-color 0.6s;
+  transition: border 0.7s;
+}
+
+.mybut:hover {
+  background-color: white;
+  border: 2px solid white;
+  color: #f2385a;
+}
+
+.content-in p {
+  color: white;
+  margin-bottom: 30px;
+  font-family: nine;
+  letter-spacing: 2px;
+  font-size: 25px;
+}
+
+.aboutback {
+  background: url("../Images/download.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.eventsback {
+  background: url("../Images/download02.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.about-in-back {
+  background-color: #eeeeee;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 15px;
+  height: auto;
+}
+
+/*--Contact Us--*/
+
+.contactus {
+background-color: black;
+}
+
+.socialmedia i {
+  padding: 0 10px;
+  color: white;
+}
+
+.hola{
+  color: white;
+}
+
+.social-container p{
+  background-color: white;
+  height: auto;
+  padding: 10px;
+  border-radius: 30px;
+  width: 80%;
+}
+
+footer{
+padding-bottom: 40px;
+background-color: black;
+font-family: 'Poppins', sans-serif;
+letter-spacing: 2px;
+font-weight: bold;
+color: white;
+}

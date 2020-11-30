@@ -134,6 +134,7 @@ header #event i {
     left: 50%;
     margin-left: -2px;
   }
+
 }
 
 .cd-timeline-block {
@@ -220,6 +221,12 @@ header #event i {
     -webkit-transform: translateZ(0);
     -webkit-backface-visibility: hidden;
   }
+  .cd-timeline-content .cd-date {
+    opacity: 1 !important;
+    letter-spacing: 2px;
+    font-weight: 600;
+  }
+
   .cssanimations .cd-timeline-img.is-hidden {
     visibility: hidden;
   }
@@ -329,7 +336,9 @@ header #event i {
 .cd-timeline-content .cd-date {
   float: left;
   padding: 0.8em 0;
-  opacity: 0.7;
+  opacity: 0.9;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
 .cd-timeline-content::before {
   content: "";

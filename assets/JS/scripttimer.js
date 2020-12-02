@@ -178,7 +178,7 @@
     var currentYear = new Date().getFullYear();
 
     new FlipClock(document.getElementById('flipclock-2'), {
-        endDate: new Date(currentYear, 12, 02),
+        endDate: new Date(currentYear, 12, -7),
         labels: {
             days: 'Days',
             hours: 'Hours',

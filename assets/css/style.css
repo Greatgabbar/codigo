@@ -159,14 +159,14 @@ h6 {
   .main2-btn i {
     margin-right: 5px; }
   .main2-btn:hover {
-    background-color: rgb(0, 0, 0);
+    background-color: white;
     color: #ffffff;
     border-color: #EB3656; }
-  .main2-btn.main-btn-2 {
+  .main2-btn .main-btn-2 {
     background-color: #fff;
     color: #EB3656;
     border-color: #EB3656; }
-    .main2-btn.main-btn-2:hover {
+    .main2-btn .main-btn-2:hover {
       background-color: #EB3656;
       border-color: #EB3656;
       color: #fff; }

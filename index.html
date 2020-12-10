@@ -137,7 +137,7 @@
                             <img height="287.77" src="./assets/Images/3.jpeg"  alt="About" class="aboutimages">
                         </div> <!-- single image -->
                         <div data-aos="fade-right" class="about-btn">
-                            <a class="main2-btn" ><img  width="50" src="./assets/Logo/codigo-logo-white.png"></a>
+                            <a class="main2-btn hover-check" ><img width="50" id="owasp-logo" src="./assets/Logo/codigo-logo-white.png"></a>
                         </div>
                         <div class="single-image image-tow float-right">
                             <img height="287.77" src="./assets/Images/4.jpeg" alt="About" class="aboutimages">
@@ -359,6 +359,20 @@ Made with &hearts; by Owasp
         })
         .mouseleave(function() {
             $("#codigo-logo").attr("src","./assets/Logo/logo.png");
+        });
+    })
+    });
+</script>  
+
+<script>
+    $(document).ready(function() {
+    $(".hover-check").each(function() {
+        $(this)
+        .mouseover(function() {
+            $("#owasp-logo").attr("src","./assets/Logo/codigo-logo-black.png");
+        })
+        .mouseleave(function() {
+            $("#owasp-logo").attr("src","./assets/Logo/codigo-logo-white.png");
         });
     })
     });

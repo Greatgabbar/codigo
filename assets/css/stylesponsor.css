@@ -69,10 +69,7 @@ ul li {
   -webkit-transform: rotate(45deg) translateZ(0px);
   transform: rotate(45deg) translateZ(0px);
 }
-.nm h1 {
-  color: black;
-  text-shadow: 1px 1px 5px black;
-}
+
 #list li figure > div > div {
   background: url(../Images/spons.png)
     no-repeat;
@@ -240,6 +237,10 @@ ul li {
 
 .button-container .button:nth-child(2) {
   float: right;
+}
+.nm h1 {
+  color: black;
+  text-shadow: 1px 1px 5px black;
 }
 
 .sponsback{

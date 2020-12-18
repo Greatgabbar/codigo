@@ -21,8 +21,8 @@
       };
   
       createView();
-      updateView();
-      addObserver();
+//       updateView();
+//       addObserver();
    
       function start() {
         _this.current = getTimeUntil(config.endDate.getTime(), new Date().getTime());

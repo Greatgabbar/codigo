@@ -66,14 +66,14 @@
   
       // Assumes a non-negative number.
       function pad2(number) {
-        if (number < 10) return "0" + number;
-        else return "" + number;
+        if (number < 10) return "0" ;
+        else return "";
       }
   
       function pad3(number) {
-        if (number < 10) return "0" + number;
-        else if (number < 100) return "" + number;
-        else return "" + number;
+        if (number < 10) return "0";
+        else if (number < 100) return "";
+        else return "";
       }
   
       function createView() {

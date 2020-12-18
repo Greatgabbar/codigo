@@ -403,12 +403,15 @@ Made with &hearts; by Owasp
     const link = document.createElement('button') 
     link.classList.add('swal-button')
     link.innerHTML = "<a href='https://discord.com/invite/U5hq3zVBS5' target='_blank'><span style='color: #fff;'>Join Now!</span></a>"
-    swal({
+    
+    setInterval(() => {
+        swal({        
         text: "Do Join Our Discord Server!",
         icon: "./assets/Images/discord.gif",
         content : link,
         button : false
-    })
+    }) 
+        }, 3000);
 </script>
 
 
